@@ -1,0 +1,10 @@
+header>h1>img{
+    max-width: 25%;
+    padding-top: 0;
+}
+.about-me img{
+    max-width: 15%
+}
+.gallery img{
+    max-width: 15%;
+}
