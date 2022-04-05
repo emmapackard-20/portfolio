@@ -1,3 +1,6 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 header>h1>img{
     max-width: 25%;
     padding-top: 0;
@@ -7,4 +10,7 @@ header>h1>img{
 }
 .gallery img{
     max-width: 15%;
+}
+.about-me div{
+    
 }
