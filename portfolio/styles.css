@@ -11,6 +11,18 @@ header>h1>img{
 .gallery img{
     max-width: 15%;
 }
+.column-1{
+    flex-direction: column;
+    max-width: 35rem;
+    padding: 2rem;
+}
+.column-2{
+    flex-direction: column;
+    max-width: 35rem;
+    padding: 2rem;
+    position: relative;
+    position: right;
+}
 .about-me div{
-    
+    display: flex;
 }
