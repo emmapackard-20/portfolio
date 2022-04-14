@@ -27,9 +27,11 @@ header{
 }
 .gallery{
     text-align: center;
+    font-size: 125%;
 }
 .gallery img{
-    max-width: 15%;
+    max-width: 25%;
+    width: 100%;
 }
 .about-me{
     display: flex;
@@ -43,8 +45,33 @@ header{
 }
 .about-me div{
     width: 25%;
-    margin: 4rem;
+    margin: 0 4rem;
 }
 .contact{
     text-align: center;
+    font-size: 125%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.contact ul{
+    text-align: left;
+    width: 22rem;
+    margin: auto;
+}
+@media (max-width:700px){
+    header{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header nav{
+        flex-basis: 100%;
+        padding-top: 2rem;
+    }
+    .about-me h3{
+        text-align: center;
+    }
+    .about-me div{
+        width: 40%;
+        margin: 0 1rem
+    }
 }
